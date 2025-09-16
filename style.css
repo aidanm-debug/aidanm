@@ -1,0 +1,70 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+@font-face {
+    font-family: "My Font";
+    src: url(myfont.woff);
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+body {
+  margin: 1rem;
+  font-family: "cursive;", sans-serif;
+font-weight: 400;
+font-style: normal;
+  line-height: 1.5;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;''
+}
+.top{
+  height:650px;
+  width:650px;
+  display: block;
+  margin: auto
+}
+.bottom{
+  height:1000px;
+  width:1000px;
+  display: block;
+  margin: auto
+
+}
+.photos{
+  height:700px;
+  width:700px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+  gap: 0px;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 100px;
+  transition: transform 0.3s ease-in-out
+
+}
+
+.gallery-container {
+  margin: 2rem auto;
+  padding: 10rem;
+}
+
+.link{
+  
+  padding:70px;
+
+}
