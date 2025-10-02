@@ -6,6 +6,9 @@ html {
   font-size: 16px;
 }
 
+h1 {
+  font-family: ", serif; /* Times New Roman as primary, serif as fallback */
+}
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
